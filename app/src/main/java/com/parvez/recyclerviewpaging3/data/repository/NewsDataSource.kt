@@ -36,7 +36,6 @@ class NewsDataSource: PageKeyedDataSource<Int, NewsResponse.Articles>() {
                 initialLoading.postValue(NetworkState.SUCCESS)
                 networkState.postValue(NetworkState.SUCCESS)
             }
-
         })
     }
 
